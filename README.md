@@ -1,24 +1,17 @@
 # What is peakseek?
 
 Here, we provide a R package with two functions. 
-$paied_peak_search_ab$ is used for ***. 
-$paied_peak_search_aa$ is used for ***. 
+$paied_peak_search_ab$ is used for **. 
+$paied_peak_search_aa$ is used for **. 
 
 # How to installation?
 
-This package can be install this package from github directly:
+This package can be install this package from github:
 
 ```
 library(devtools)
 install_github("microbma/peakseek")
 ```
-
-Or download the zip file of this package directly and install in R:
-
-```
-install.packages("~/peakseek.zip")
-```
-
 
 # How to prepare the data file?
 
@@ -37,7 +30,7 @@ mz.df <- data.frame(num1 = mztest[,1], #ID 1
 
 # How to get the results?
 
-Search in different column
+**Search in different column**
 
 ```
 paired_peak_search_ab(file = mz.df,
@@ -47,7 +40,7 @@ paired_peak_search_ab(file = mz.df,
 ```
 
 
-Search in same column
+**Search in same column**
 
 ```
 paired_peak_search_aa(file = mz.df,
